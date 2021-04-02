@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>building servlet</display-name>
+  <servlet>
+    <servlet-name>Testing</servlet-name>
+    <servlet-class>org.simplilearn.workshop.TestingServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Testing</servlet-name>
+    <url-pattern>/Testing</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ProductViewerServlet</display-name>
+    <servlet-name>ProductViewerServlet</servlet-name>
+    <servlet-class>org.simplilearn.workshop.ProductViewerServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProductViewerServlet</servlet-name>
+    <url-pattern>/ProductViewer</url-pattern>
+  </servlet-mapping>
+</web-app>
